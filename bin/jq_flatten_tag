@@ -1,0 +1,2 @@
+#!/bin/sh
+jq '. + (.Tags | map ({ "key": .Key, "value": .Value }) | from_entries)'

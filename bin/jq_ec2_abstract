@@ -1,0 +1,1 @@
+jq '{ InstanceId: .InstanceId, PublicIpAddress: .PublicIpAddress,  Tags: .Tags, PrivateIpAddress: .PrivateIpAddress }'
